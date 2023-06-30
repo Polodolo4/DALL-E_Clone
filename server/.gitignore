@@ -1,0 +1,14 @@
+# Ignore .env files
+*.env
+
+# Ignore .env files in a specific directory
+config/.env
+
+# Ignore all .env files in any directory
+**/*.env
+
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
